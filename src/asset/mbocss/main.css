@@ -1,0 +1,6 @@
+/*公共头部*/
+@import "../fragment/header.css";
+/*公共尾部*/
+@import "../fragment/footer.css";
+/*index模块*/
+@import "../fragment/index.css";
