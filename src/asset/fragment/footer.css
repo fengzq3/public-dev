@@ -4,3 +4,16 @@
 .footer .footer-1 li a+a{border-left:1px dashed #444;}
 .footer .panel-table{max-width:50% !important;margin:10px auto;}
 .footer .panel-table li{display:table-cell;}
+
+.slide-con{position:fixed;top:0;width:100%;}
+.slide-con .container{position:relative;}
+.slide-left{position:absolute;border:1px solid #e4e4e4;top:150px;right:100%;}
+
+.slide-right{position:absolute;left:100%;top:100px;}
+.slide-right ul{margin-bottom:0;}
+.slide-right ul li{padding:5px;margin-bottom:5px;background-color:#fff;color:#444;text-align: center;width:70px;}
+.slide-right ul li a{display:block;color:#444;}
+.slide-right ul li a:hover,.slide-right ul li a:focus{text-decoration: none;}
+.slide-right ul li a span{font-size:1.5em;}
+.slide-right ul li.active{color:#fff;background-color:#2858ba;}
+.slide-right ul li.active a{color:#fff;}

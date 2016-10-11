@@ -4,3 +4,5 @@
 @import "../fragment/footer.css";
 /*index模块*/
 @import "../fragment/index.css";
+/*日历模块*/
+@import "../fragment/bootstrap-datepicker3.css";
