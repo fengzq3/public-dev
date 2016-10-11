@@ -6,3 +6,5 @@
 @import "../fragment/index.css";
 /*日历模块*/
 @import "../fragment/bootstrap-datepicker3.css";
+/*关于我们*/
+@import "../fragment/about.css";
