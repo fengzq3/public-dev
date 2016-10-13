@@ -11,6 +11,8 @@ $(function () {
     var jsSlide = $('.js-slide');
     var datePicker = $('.js-datePicker');
     var tabC = $('.js-panelTab');
+    var listTab = $('.js-listTab');
+    var listSelect = $('.js-listSelect');
 
     console.log(jsSlide);
     if (jsSlide) {
@@ -57,6 +59,19 @@ $(function () {
     }, function () {
     });
 
+//    listTab
+    listTab.find('.js-tab-item').hover(function () {
+        $(this).addClass('active').parent().siblings().find('a.active').removeClass('active');
+        console.log($(this).attr('href'));
+        listTab.find('.panel-body '+$(this).attr('href')).show().siblings().hide();
+    }, function () {
+    });
+
+//    list 页面form
+    listSelect.on('change', function () {
+        $(this).parents('form').submit();
+        //window.location.href = $(this).parents('form').attr('action');
+    });
 
 });
 

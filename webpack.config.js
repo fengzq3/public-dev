@@ -10,12 +10,12 @@ module.exports = {
     //提取公共lib
     plugins: [
         new webpack.optimize.CommonsChunkPlugin({name: 'commons', filename: 'common.js'}),
-        new webpack.optimize.UglifyJsPlugin({
-            compress: {
-                drop_console:true,
-                warnings: false
-            }
-        }),
+        //new webpack.optimize.UglifyJsPlugin({
+        //    compress: {
+        //        drop_console:true,
+        //        warnings: false
+        //    }
+        //}),
         new webpack.ProvidePlugin({
             $: 'jquery',
             jQuery: 'jquery',
@@ -37,6 +37,24 @@ module.exports = {
             title: "关于我们",
             template: 'src/about.html',
             filename: '../../about.html'
+
+        }),
+        new htmlWebpackPlugin({
+            files: {
+                js: ['asset/js/common.js', 'asset/js/index.bundle.js']
+            },
+            title: "列表1",
+            template: 'src/list/list.html',
+            filename: '../../list/list.html'
+
+        }),
+        new htmlWebpackPlugin({
+            files: {
+                js: ['asset/js/common.js', 'asset/js/index.bundle.js']
+            },
+            title: "列表2",
+            template: 'src/list/list2.html',
+            filename: '../../list/list2.html'
 
         })
 
