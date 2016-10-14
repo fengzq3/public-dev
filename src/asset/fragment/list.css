@@ -28,4 +28,4 @@
 .page-nav ul li a span.iconfont{font-size:12px;top:-1px;}
 .page-nav ul li a:hover,.page-nav ul li a:focus,.page-nav ul li a.active{background-color:#3266cc;color:#fff;text-decoration: none;}
 
-.list-select{position:absolute;right:0;top:1px;}
+.list-select{position:absolute;right:0;top:1px;color:#444;background-color:#e9e9e9;}

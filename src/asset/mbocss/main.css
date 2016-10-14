@@ -10,3 +10,7 @@
 @import "../fragment/about.css";
 /*列表*/
 @import "../fragment/list.css";
+/*详情*/
+@import "../fragment/content.css";
+/*登录注册*/
+@import "../fragment/login.css";

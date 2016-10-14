@@ -1,0 +1,30 @@
+.bidding-panel{border-color:#e4e4e4;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;}
+.bidding-panel .panel-heading{background:url(../img/list-table-bg.png) repeat-x top;padding:16px;}
+.bidding-title{margin-top:20px;color:#3265d0;text-align: center;}
+
+.bidding-des{border-bottom:1px dashed #c4c4c4;padding:20px 10px;}
+.bidding-des>p{margin-bottom:0;color:#3265d0;}
+.bidding-des>a{margin-right:10px;color:#3265d0;}
+.bidding-des a:hover,.bidding-des a:focus{text-decoration: none;}
+.bidding-des .bdsharebuttonbox{margin-top:-7px;}
+
+.bidding-sig{margin:17px 10px;border:1px solid #e1e1e1;background-color:#f6f6f6;padding:20px 80px;}
+.btn-bidding-style{background:url(../img/content-btn-bg.png) repeat-x #3265d0;color:#fff;padding:10px 20px;}
+.btn-bidding-style:hover{color:#fff;}
+.bidding-sig p:last-child{margin-bottom:0;}
+.bidding-sig p a{color:#fe0000;padding:0 2px;}
+
+.bidding-detail{margin:0 10px;padding-top:20px;}
+.bidding-detail .row{margin-left:-20px;margin-right:-20px;}
+.bidding-detail .col-sm-4{padding:0 20px;}
+.bidding-detail .table th{background:#f6f6f6;color:#fe0000;font-weight:200;padding:10px 20px;}
+.bidding-detail .table td{color:#444;padding:10px 20px;}
+
+.bidding-content{margin:0 10px;}
+.bidding-content h4{border-bottom:1px solid #3266cc;color:#3266cc;padding:15px 0;margin-bottom:20px;}
+.bidding-content p a{color:#fe0000;padding:0 3px;}
+.bidding-content p a.download{color:#3266cc;}
+.bidding-content .no-login{padding:15px; border:1px solid #e1e1e1;margin-bottom:10px;}

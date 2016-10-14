@@ -56,6 +56,33 @@ module.exports = {
             template: 'src/list/list2.html',
             filename: '../../list/list2.html'
 
+        }),
+        new htmlWebpackPlugin({
+            files: {
+                js: ['asset/js/common.js', 'asset/js/index.bundle.js']
+            },
+            title: "内容页",
+            template: 'src/content/content.html',
+            filename: '../../content/content.html'
+
+        }),
+        new htmlWebpackPlugin({
+            files: {
+                js: ['asset/js/common.js', 'asset/js/index.bundle.js']
+            },
+            title: "登录页",
+            template: 'src/other/login.html',
+            filename: '../../other/login.html'
+
+        }),
+        new htmlWebpackPlugin({
+            files: {
+                js: ['asset/js/common.js', 'asset/js/index.bundle.js']
+            },
+            title: "注册",
+            template: 'src/other/register.html',
+            filename: '../../other/register.html'
+
         })
 
     ],
