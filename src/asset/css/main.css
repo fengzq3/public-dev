@@ -9,6 +9,7 @@ combined files :
 ../fragment/list.css
 ../fragment/content.css
 ../fragment/login.css
+../fragment/search.css
 */
 
 /*\516C\5171\5934\90E8*/
@@ -1138,7 +1139,7 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.focus {
 
 
 /*\4E24\4E2A\5217\8868*/
-.panel-list-body a{text-align: center;margin-bottom:10px;}
+.panel-list-body a{text-align: center;margin-bottom:10px;display:block;}
 .list-panel{border:0;
     -webkit-border-radius:0;
     -moz-border-radius:0;
@@ -1237,3 +1238,23 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.focus {
     -webkit-border-radius:0;
     -moz-border-radius:0;
     border-radius:0;}
+
+/*\9AD8\7EA7\641C\7D22*/
+
+.panel-search{border:1px solid #e5e4e2;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;}
+.panel-search .panel-heading{background:url(../img/list-table-bg.png) repeat-x top;padding:16px;}
+.ad-search-form .form-group{margin-left:-5px;margin-right:-5px;}
+
+.search-table{margin-bottom:0;margin-left:15px;}
+.search-table .checkbox{padding-top:0;font-weight:200;}
+.search-table thead th{border:0 !important;}
+.search-table thead th .checkbox{color:#3367cd;}
+.search-table tbody td{border:0 !important;}
+.ad-search-form .form-control{
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;}
+

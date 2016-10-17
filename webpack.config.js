@@ -83,6 +83,24 @@ module.exports = {
             template: 'src/other/register.html',
             filename: '../../other/register.html'
 
+        }),
+        new htmlWebpackPlugin({
+            files: {
+                js: ['asset/js/common.js', 'asset/js/index.bundle.js']
+            },
+            title: "高级搜索",
+            template: 'src/other/search.html',
+            filename: '../../other/search.html'
+
+        }),
+        new htmlWebpackPlugin({
+            files: {
+                js: ['asset/js/common.js', 'asset/js/index.bundle.js']
+            },
+            title: "展会信息",
+            template: 'src/other/info.html',
+            filename: '../../other/info.html'
+
         })
 
     ],

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><% htmlWebpackPlugin.options.title %></title>
+    <link rel="stylesheet" href="../asset/css/bootstrap.css">
+    <link rel="stylesheet" href="../asset/css/main.css">
+</head>
+<body>
+<div class="top-nav">
+    <div class="container">
+        <ul class="top-nav-right pull-right">
+            <li><a id="favorite" href="#">添加收藏</a></li>
+            <li><a href="#"><span class="iconfont icon-wechart"></span>官方微信</a></li>
+            <li><a href="#"><span class="iconfont icon-weibo"></span>新浪微博</a></li>
+        </ul>
+        <ul class="top-nav-left">
+            <li>
+                <form action="#" class="form-inline top-nav-form">
+                    <div class="input-group">
+                        <label class="input-group-addon" for="uname">账号：</label>
+                        <input class="form-control" type="text" id="uname" name="uname">
+                    </div>
+                    <div class="input-group">
+                        <label class="input-group-addon" for="upwd">密码：</label>
+                        <input class="form-control" type="password" id="upwd" name="password">
+                    </div>
+                    <button class="btn top-form-btn">登录</button>
+                </form>
+            </li>
+            <li><a href="#">忘记密码</a></li>
+            <li><a href="#">免费注册</a></li>
+            <li><a href="#">付费指导</a></li>
+            <li><a href="#">服务列表</a></li>
+        </ul>
+    </div>
+</div>
+<!-- top-nav END -->
+<div class="container">
+    <div class="top-info">
+        <span class="iconfont icon-close js-close-info"></span>
+        <span class="top-info-title pull-left">最新公告</span>
+        <p>经国务院批准，现将2016年元旦、春节、清明节、劳动节、端午节、中秋节和国庆节放假调休日期的具体安排通知</p>
+    </div>
+    <div class="top-head">
+        <div class="col-sm-3">
+            <a class="top-head-logo" href="#"><img src="../asset/img/logo.png" alt="招标项目网"></a>
+        </div>
+        <div class="col-sm-7">
+            <a class="top-head-banner" href="#"><img src="../asset/img/top-banner.png" alt=""></a>
+        </div>
+        <div class="col-sm-2">
+            <ul class="top-head-cc">
+                <li><a href="#">国家发展和改革委员会</a></li>
+                <li><a href="#">国家发展和改革委员会</a></li>
+                <li><a href="#">国家发展和改革委员会委员会</a></li>
+                <li><a href="#">国家发展和改革委员会发展和改革委员会</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- main-nav START -->
+<div class="container">
+    <div class="main-nav">
+        <ul class="nav nav-justified">
+            <li><a href="#" class="active"><span class="iconfont icon-home"></span> 首页</a></li>
+            <li><a href="#">招标信息</a></li>
+            <li><a href="#">项目信息</a></li>
+            <li><a href="#">商业数据库</a></li>
+            <li><a href="#">供应商</a></li>
+            <li><a href="#">招标机构</a></li>
+            <li><a href="#">资讯中心</a></li>
+            <li></li>
+        </ul>
+    </div>
+    <!--search-->
+    <div class="main-search">
+        <div class="col-sm-7">
+            <form action="#" method="post" class="main-search-form">
+                <div class="input-group">
+                    <input type="text" class="form-control" name="search" placeholder="请输入产品信息">
+                    <span class="input-group-btn">
+                        <button class="btn search-btn" type="submit">搜 索</button>
+                    </span>
+                </div>
+                <div class="clearfix"></div>
+                <div class="search-label">
+                    <em class="pull-right"><a href="#"> >>进入高级搜索 </a></em>
+                    <span>热门关键词：</span>
+                    <a href="#">电梯</a>
+                    <a href="#">雕塑</a>
+                    <a href="#">泵</a>
+                    <a href="#">景观</a>
+                    <a href="#">阀门</a>
+                    <a href="#">污水</a>
+                </div>
+            </form>
+        </div>
+        <div class="col-sm-5">
+            <div class="main-search-tel">
+                <img src="../asset/img/search-tel.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!--面包屑-->
+<div class="container tender-module tender-module-first">
+    <div class="about-con">
+        <div class="pull-right">
+            <span>您现在的位置：</span>
+            <a href="#">首页</a> > <a href="#">高级搜索</a>
+        </div>
+        <h4>高级搜索
+            <small>ADVANCED SEARCH</small>
+        </h4>
+    </div>
+</div>
+<!-- head END -->
+<div class="container tender-module tender-module-first">
+    <div class="panel panel-search">
+        <div class="panel-heading"><h4 class="panel-title"></h4></div>
+        <div class="panel-body">
+            <form action="#" class="form-horizontal ad-search-form">
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">搜索关键词：</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" placeholder="请输入想要搜索的关键词，包含全部关键词">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">搜索关键词：</label>
+                    <div class="col-sm-8">
+                        <table class="table search-table">
+                            <thead>
+                            <tr>
+                                <th><label for="areaAll" class="checkbox"><input id="areaAll" class="js-checkAll" data-check="js-areaItem"
+                                                                                 type="checkbox">全国</label></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                            <tr>
+                                <th><label class="checkbox"><input class="js-areaItem js-checkAll" data-check="js-areaCol1"
+                                                                   type="checkbox">华东</label></th>
+                                <th><label class="checkbox"><input class="js-areaItem js-checkAll" data-check="js-areaCol2"
+                                                                   type="checkbox">华北</label></th>
+                                <th><label class="checkbox"><input class="js-areaItem js-checkAll" data-check="js-areaCol3"
+                                                                   type="checkbox">西南</label></th>
+                                <th><label class="checkbox"><input class="js-areaItem js-checkAll" data-check="js-areaCol4"
+                                                                   type="checkbox">东北</label></th>
+                                <th><label class="checkbox"><input class="js-areaItem js-checkAll" data-check="js-areaCol5"
+                                                                   type="checkbox">华南</label></th>
+                                <th><label class="checkbox"><input class="js-areaItem js-checkAll" data-check="js-areaCol6"
+                                                                   type="checkbox">西北</label></th>
+                                <th><label class="checkbox"><input class="js-areaItem js-checkAll" data-check="js-areaCol7"
+                                                                   type="checkbox">华中</label></th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td><label class="checkbox"><input class=" js-areaCol1" type="checkbox">上海</label></td>
+                                <td><label class="checkbox"><input class=" js-areaCol2" type="checkbox">北京</label></td>
+                                <td><label class="checkbox"><input class=" js-areaCol3" type="checkbox">重庆</label></td>
+                                <td><label class="checkbox"><input class=" js-areaCol4" type="checkbox">黑龙江</label></td>
+                                <td><label class="checkbox"><input class=" js-areaCol5" type="checkbox">广东</label></td>
+                                <td><label class="checkbox"><input class=" js-areaCol6" type="checkbox">陕西</label></td>
+                                <td><label class="checkbox"><input class=" js-areaCol7" type="checkbox">河南</label></td>
+                            </tr>
+                            <tr>
+                                <td><label class="checkbox"><input class=" js-areaCol1" type="checkbox">江苏</label></td>
+                                <td><label class="checkbox"><input class=" js-areaCol2" type="checkbox">天津</label></td>
+                                <td><label class="checkbox"><input class=" js-areaCol3" type="checkbox">四川</label></td>
+                                <td><label class="checkbox"><input class=" js-areaCol4" type="checkbox">辽宁</label></td>
+                                <td><label class="checkbox"><input class=" js-areaCol5" type="checkbox">广西</label></td>
+                                <td><label class="checkbox"><input class=" js-areaCol6" type="checkbox">甘肃</label></td>
+                                <td><label class="checkbox"><input class=" js-areaCol7" type="checkbox">湖北</label></td>
+                            </tr>
+                            <tr>
+                                <td><label class="checkbox"><input class=" js-areaCol1" type="checkbox">浙江</label></td>
+                                <td><label class="checkbox"><input class=" js-areaCol2" type="checkbox">河北</label></td>
+                                <td><label class="checkbox"><input class=" js-areaCol3" type="checkbox">贵州</label></td>
+                                <td><label class="checkbox"><input class=" js-areaCol4" type="checkbox">吉林</label></td>
+                                <td><label class="checkbox"><input class=" js-areaCol5" type="checkbox">海南</label></td>
+                                <td><label class="checkbox"><input class=" js-areaCol6" type="checkbox">青海</label></td>
+                                <td><label class="checkbox"><input class=" js-areaCol7" type="checkbox">湖南</label></td>
+                            </tr>
+                            <tr>
+                                <td><label class="checkbox"><input class=" js-areaCol1" type="checkbox">安徽</label></td>
+                                <td><label class="checkbox"><input class=" js-areaCol2" type="checkbox">山西</label></td>
+                                <td><label class="checkbox"><input class=" js-areaCol3" type="checkbox">云南</label></td>
+                                <td></td>
+                                <td></td>
+                                <td><label class="checkbox"><input class=" js-areaCol6" type="checkbox">宁夏</label></td>
+                                <td><label class="checkbox"><input class=" js-areaCol7" type="checkbox">江西</label></td>
+                            </tr>
+                            <tr>
+                                <td><label class="checkbox"><input class=" js-areaCol1" type="checkbox">福建</label></td>
+                                <td><label class="checkbox"><input class=" js-areaCol2" type="checkbox">内蒙</label></td>
+                                <td><label class="checkbox"><input class=" js-areaCol3" type="checkbox">西藏</label></td>
+                                <td></td>
+                                <td></td>
+                                <td><label class="checkbox"><input class=" js-areaCol6" type="checkbox">新疆</label></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><label class="checkbox"><input class=" js-areaCol1" type="checkbox">山东</label></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!--地区 END-->
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">搜索时间：</label>
+                    <div class="col-sm-8">
+                        <label class="radio-inline"><input name="time" type="radio">近一周</label>
+                        <label class="radio-inline"><input name="time" type="radio">近一月</label>
+                        <label class="radio-inline"><input name="time" type="radio">近三月</label>
+                        <label class="radio-inline"><input name="time" type="radio">近半年</label>
+                        <label class="radio-inline"><input name="time" type="radio">时间段
+                            <input type="text" class="js-inputDate">
+                            <span>至</span>
+                            <input type="text" class="js-inputDate">
+
+                        </label>
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">搜索类型：</label>
+                    <div class="col-sm-8">
+                        <label class="checkbox-inline"><input class="js-checkAll" data-check="js-checkItem" type="checkbox">全部</label>
+                        <label class="checkbox-inline"><input class="js-checkItem" type="checkbox">招标公告</label>
+                        <label class="checkbox-inline"><input class="js-checkItem" type="checkbox">标书下载</label>
+                        <label class="checkbox-inline"><input class="js-checkItem" type="checkbox">中标结果</label>
+                        <label class="checkbox-inline"><input class="js-checkItem" type="checkbox">招标预告</label>
+                        <label class="checkbox-inline"><input class="js-checkItem" type="checkbox">招标变更</label>
+                        <label class="checkbox-inline"><input class="js-checkItem" type="checkbox">VIP独家</label>
+                        <label class="checkbox-inline"><input class="js-checkItem" type="checkbox">拟在建项目</label>
+                        <label class="checkbox-inline"><input class="js-checkItem" type="checkbox">审核项目</label>
+                        <label class="checkbox-inline"><input class="js-checkItem" type="checkbox">环评项目</label>
+                        <label class="checkbox-inline"><input class="js-checkItem" type="checkbox">设计项目</label>
+                        <label class="checkbox-inline"><input class="js-checkItem" type="checkbox">询价公告</label>
+                        <label class="checkbox-inline"><input class="js-checkItem" type="checkbox">竞价公告</label>
+                        <label class="checkbox-inline"><input class="js-checkItem" type="checkbox">免费信息</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">搜索范围：</label>
+                    <div class="col-sm-8">
+                        <label class="radio-inline"><input name="fw" type="radio" checked>全文</label>
+                        <label class="radio-inline"><input name="fw" type="radio">标题</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <button class="login-btn-style btn" type="submit">立即搜索</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- module END -->
+<div class="container tender-ad ">
+    <a href="#"><img src="../asset/img/banner-ad.png" alt=""></a>
+</div>
+<!--友情连接-->
+<div class="container tender-module">
+    <div class="panel tender-panel1">
+        <div class="panel-heading">
+            <h3 class="panel-title">
+                <span>友情连接</span>
+            </h3>
+        </div>
+        <div class="panel-body tender-panel-body6">
+            <ul>
+                <li class="w-p10"><a href="#">装修网</a></li>
+                <li class="w-p10"><a href="#">装修网</a></li>
+                <li class="w-p10"><a href="#">装修网</a></li>
+                <li class="w-p10"><a href="#">装修网</a></li>
+                <li class="w-p10"><a href="#">装修网</a></li>
+                <li class="w-p10"><a href="#">装修网</a></li>
+                <li class="w-p10"><a href="#">装修网</a></li>
+                <li class="w-p10"><a href="#">装修网</a></li>
+                <li class="w-p10"><a href="#">装修网</a></li>
+                <li class="w-p10"><a href="#">装修网</a></li>
+                <li class="w-p10"><a href="#">装修网</a></li>
+                <li class="w-p10"><a href="#">装修网</a></li>
+                <li class="w-p10"><a href="#">装修网</a></li>
+                <li class="w-p10"><a href="#">装修网</a></li>
+                <li class="w-p10"><a href="#">装修网</a></li>
+                <li class="w-p10"><a href="#">装修网</a></li>
+                <li class="w-p10"><a href="#">装修网</a></li>
+                <li class="w-p10"><a href="#">装修网</a></li>
+                <li class="w-p10"><a href="#">装修网</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--footer-->
+<div class="container tender-module">
+    <div class="footer">
+        <ul class="footer-1">
+            <li>
+                <a href="#">关于我们</a>
+                <a href="#">诚聘英才</a>
+                <a href="#">展会信息</a>
+                <a href="#">招标日历</a>
+                <a href="#">诚招代理</a>
+                <a href="#">诚招代理</a>
+                <a href="#">诚招代理</a>
+            </li>
+        </ul>
+        <ul class="panel-table">
+            <li>资讯热线：010-5522541</li>
+            <li>资讯热线：010-5522541</li>
+            <li>资讯热线：010-5522541</li>
+        </ul>
+        <ul class="footer-info">
+            <li>中国招标网 ICP备1264651号</li>
+        </ul>
+        <ul class="footer-copyright">
+            <li>
+                <a href="#"><img src="../asset/img/cp1.png" alt=""></a>
+                <a href="#"><img src="../asset/img/cp2.png" alt=""></a>
+                <a href="#"><img src="../asset/img/cp3.png" alt=""></a>
+                <a href="#"><img src="../asset/img/cp4.png" alt=""></a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--侧边悬浮-->
+<div class="slide-con">
+    <div class="container">
+        <div class="slide-left">
+            <img src="../asset/img/left-fix.png" alt="">
+        </div>
+        <div class="slide-right">
+            <ul>
+                <li class="active"><a href="#"><span><img src="../asset/img/cc.png" alt=""></span><br>在线咨询</a></li>
+                <li class="active"><a href="#"><span><img src="../asset/img/share.png" alt=""></span><br>马上分享</a></li>
+                <li><a href="#"><span>01</span><br>网站首页</a></li>
+                <li><a href="#"><span>02</span><br>招标信息</a></li>
+                <li class="active"><a href="#"><span>03</span><br>项目信息</a></li>
+                <li><a href="#"><span>04</span><br>商业数据</a></li>
+                <li><a href="#"><span>05</span><br>供应商</a></li>
+                <li><a href="#"><span>06</span><br>招标机构</a></li>
+                <li><a href="#"><span>07</span><br>资讯中心</a></li>
+                <li class="active"><a href="#">顶部<br><span class="iconfont icon-arr-up"></span></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+.panel-search{border:1px solid #e5e4e2;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;}
+.panel-search .panel-heading{background:url(../img/list-table-bg.png) repeat-x top;padding:16px;}
+.ad-search-form .form-group{margin-left:-5px;margin-right:-5px;}
+
+.search-table{margin-bottom:0;margin-left:15px;}
+.search-table .checkbox{padding-top:0;font-weight:200;}
+.search-table thead th{border:0 !important;}
+.search-table thead th .checkbox{color:#3367cd;}
+.search-table tbody td{border:0 !important;}
+.ad-search-form .form-control{
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;}

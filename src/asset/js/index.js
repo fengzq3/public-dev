@@ -13,6 +13,8 @@ $(function () {
     var tabC = $('.js-panelTab');
     var listTab = $('.js-listTab');
     var listSelect = $('.js-listSelect');
+    var checkAll = $('.js-checkAll');
+    var inputData = $('.js-inputDate');
 
     console.log(jsSlide);
     if (jsSlide) {
@@ -50,12 +52,22 @@ $(function () {
         window.location.href = url + '?' + ev.date.valueOf();
     });
 
+//    input datePicker
+    inputData.datepicker({
+        //startDate: 'today',
+        language: "zh-CN",
+        todayBtn: false,
+        format: "yyyy-mm-dd",
+        keyboardNavigation: false,
+        autoclose: false
+    });
+
 //    自定义tab
     tabC.find('.js-tab-item').hover(function () {
         $(this).addClass('on').siblings('.on').removeClass('on');
         $(this).parent().stop().animate({'background-positionX': $(this).position().left - 15 + 'px'}, 100);
-    //    显示con
-        tabC.find('.panel-body ul'+$(this).attr('href')).show().siblings().hide();
+        //    显示con
+        tabC.find('.panel-body ul' + $(this).attr('href')).show().siblings().hide();
     }, function () {
     });
 
@@ -63,7 +75,7 @@ $(function () {
     listTab.find('.js-tab-item').hover(function () {
         $(this).addClass('active').parent().siblings().find('a.active').removeClass('active');
         console.log($(this).attr('href'));
-        listTab.find('.panel-body '+$(this).attr('href')).show().siblings().hide();
+        listTab.find('.panel-body ' + $(this).attr('href')).show().siblings().hide();
     }, function () {
     });
 
@@ -71,6 +83,21 @@ $(function () {
     listSelect.on('change', function () {
         $(this).parents('form').submit();
         //window.location.href = $(this).parents('form').attr('action');
+    });
+
+//    checkbox 全选
+    checkAll.on('change', function () {
+        var $check = $('.' + $(this).data().check);
+        var isChecked = $(this).prop('checked');
+
+        $check.each(function () {
+            console.log($(this).data().check);
+            $(this).prop('checked', isChecked);
+            if ($(this).data().check) {
+                $('.' + $(this).data().check).prop('checked', isChecked);
+            }
+        });
+
     });
 
 });

@@ -1,6 +1,6 @@
 
 /*两个列表*/
-.panel-list-body a{text-align: center;margin-bottom:10px;}
+.panel-list-body a{text-align: center;margin-bottom:10px;display:block;}
 .list-panel{border:0;
     -webkit-border-radius:0;
     -moz-border-radius:0;
