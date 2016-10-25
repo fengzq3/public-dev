@@ -10,12 +10,12 @@ module.exports = {
     //提取公共lib
     plugins: [
         new webpack.optimize.CommonsChunkPlugin({name: 'commons', filename: 'common.js'}),
-        //new webpack.optimize.UglifyJsPlugin({
-        //    compress: {
-        //        drop_console:true,
-        //        warnings: false
-        //    }
-        //}),
+        new webpack.optimize.UglifyJsPlugin({
+            compress: {
+                drop_console:true,
+                warnings: false
+            }
+        }),
         new webpack.ProvidePlugin({
             $: 'jquery',
             jQuery: 'jquery',
