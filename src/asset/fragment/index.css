@@ -125,3 +125,9 @@
 .tender-panel1-tab a{
     -webkit-transition: all .1s;
     transition: all .1s;}
+
+/*登录后*/
+.index-logined{padding:10px;}
+.index-logined p>a{color:#fe0000;}
+.index-logined p>span{color:#fe0000;}
+.index-logged-btn{margin-bottom: 0;}

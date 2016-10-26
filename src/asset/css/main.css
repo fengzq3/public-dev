@@ -41,12 +41,12 @@ body {
     font-family: "Microsoft YaHei", sans-serif;
 }
 @font-face {
-    font-family: 'iconfont';
-    src: url('//at.alicdn.com/t/font_1477303987_5093513.eot'); /* IE9*/
-    src: url('//at.alicdn.com/t/font_1477303987_5093513.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('//at.alicdn.com/t/font_1477303987_5093513.woff') format('woff'), /* chrome、firefox */
-    url('//at.alicdn.com/t/font_1477303987_5093513.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-    url('//at.alicdn.com/t/font_1477303987_5093513.svg#iconfont') format('svg'); /* iOS 4.1- */
+    font-family: 'iconfont';  /* project id��"158266" */
+    src: url('//at.alicdn.com/t/font_izqdjkgv8p808uxr.eot');
+    src: url('//at.alicdn.com/t/font_izqdjkgv8p808uxr.eot') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_izqdjkgv8p808uxr.woff') format('woff'),
+    url('//at.alicdn.com/t/font_izqdjkgv8p808uxr.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_izqdjkgv8p808uxr.svg#iconfont') format('svg');
 }
 
 body{background: url(../img/indexbg.png) repeat-x top #f5f8ff;}
@@ -83,6 +83,7 @@ body{background: url(../img/indexbg.png) repeat-x top #f5f8ff;}
 .icon-fav:before {content: "\e616";}
 .icon-fav-fill:before {content: "\e615";}
 .icon-local:before {content: "\e617";}
+.icon-clock:before {content: "\e618";}
 
 /*\5934\90E8\6837\5F0F*/
 .top-nav{height:40px;background-color:#fff;}
@@ -322,6 +323,12 @@ body{background: url(../img/indexbg.png) repeat-x top #f5f8ff;}
 .tender-panel1-tab a{
     -webkit-transition: all .1s;
     transition: all .1s;}
+
+/*\767B\5F55\540E*/
+.index-logined{padding:10px;}
+.index-logined p>a{color:#fe0000;}
+.index-logined p>span{color:#fe0000;}
+.index-logged-btn{margin-bottom: 0;}
 
 /*\65E5\5386\6A21\5757*/
 
