@@ -21,3 +21,12 @@
 .about-panel-nav ul li a:hover{text-decoration: none;}
 .about-panel-nav ul li:hover a,.about-panel-nav ul li:hover a span{color:#3566cc;}
 .about-panel-nav ul li:hover a:before{border-left:6px solid #3566cc;}
+
+.service-table thead th{background-color:#c32136;color:#fff;}
+.service-table tbody th{background-color:#efefef;direction: inherit;}
+.service-table th,.service-table td{text-align: center;vertical-align: middle !important;}
+.service-table td span{color:#e54746;}
+.service-table td h4{color:#e54746;}
+.service-table td a{color:#fff;background-color:#e54746;border-color:#e54746;}
+.service-table td a:hover{color:#fff;background-color: #ef4847;border-color: #ed4847;}
+.service-table caption{color:#e54746;border-bottom:1px solid #e54746;margin-bottom:20px;}

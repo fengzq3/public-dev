@@ -29,3 +29,11 @@
 .page-nav ul li a:hover,.page-nav ul li a:focus,.page-nav ul li a.active{background-color:#3266cc;color:#fff;text-decoration: none;}
 
 .list-select{position:absolute;right:0;top:1px;color:#444;background-color:#e9e9e9;}
+
+.list-select2{position:absolute;left:80px;top:4px;color:#6B6B6B;}
+.list-select2 select{background-color:#F1F1F1;border:1px solid #ccc;font-weight:200;}
+.list-select2 .but{line-height:17px;margin-left:10px;background-color:#F1F1F1;border:1px solid #ccc;font-weight:200;}
+.list2-th{color:#696969 !important;text-align:right; font-weight:200;}
+.list2-tbody th{border-bottom:1px solid #0d60b1;color:#0d60b1;}
+.red{color:#ff4747 !important;padding-left:0 !important;}
+.red:before{display:none !important;}

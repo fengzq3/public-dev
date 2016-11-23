@@ -110,6 +110,15 @@ module.exports = {
             template: 'src/zj.html',
             filename: '../../zj.html'
 
+        }),
+        new htmlWebpackPlugin({
+            files: {
+                js: ['asset/js/common.js', 'asset/js/index.bundle.js']
+            },
+            title: "信息",
+            template: 'src/about2.html',
+            filename: '../../about2.html'
+
         })
 
     ],

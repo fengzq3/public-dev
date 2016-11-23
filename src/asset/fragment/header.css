@@ -25,11 +25,11 @@ body {
 }
 @font-face {
     font-family: 'iconfont';  /* project id："158266" */
-    src: url('//at.alicdn.com/t/font_izqdjkgv8p808uxr.eot');
-    src: url('//at.alicdn.com/t/font_izqdjkgv8p808uxr.eot') format('embedded-opentype'),
-    url('//at.alicdn.com/t/font_izqdjkgv8p808uxr.woff') format('woff'),
-    url('//at.alicdn.com/t/font_izqdjkgv8p808uxr.ttf') format('truetype'),
-    url('//at.alicdn.com/t/font_izqdjkgv8p808uxr.svg#iconfont') format('svg');
+    src: url('//at.alicdn.com/t/font_rvdqhw8dw6340a4i.eot');
+    src: url('//at.alicdn.com/t/font_rvdqhw8dw6340a4i.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_rvdqhw8dw6340a4i.woff') format('woff'),
+    url('//at.alicdn.com/t/font_rvdqhw8dw6340a4i.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_rvdqhw8dw6340a4i.svg#iconfont') format('svg');
 }
 
 body{background: url(../img/indexbg.png) repeat-x top #f5f8ff;}
@@ -67,6 +67,7 @@ body{background: url(../img/indexbg.png) repeat-x top #f5f8ff;}
 .icon-fav-fill:before {content: "\e615";}
 .icon-local:before {content: "\e617";}
 .icon-clock:before {content: "\e618";}
+.icon-dui:before{content:'\e626'}
 
 /*头部样式*/
 .top-nav{height:40px;background-color:#fff;}
