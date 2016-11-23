@@ -12,15 +12,20 @@
 .about-panel .panel-heading{background:url(../img/about-bg.png) repeat-x left;border-bottom:1px solid #e4e4e4;padding:15px;}
 
 .about-panel-nav{padding:20px 0;}
-.about-panel-nav ul{margin:0;}
-.about-panel-nav ul li{padding:0 35px 0 40px;}
+.about-panel-nav ul{margin:0 15px;}
+.about-panel-nav ul li{padding:0 15px;}
 .about-panel-nav ul li + li{border-top:1px solid #e8e6e7;}
-.about-panel-nav ul li a{font-size:16px;display: block;line-height:3em;color:#444;padding-left:10px;position:relative;}
+.about-panel-nav ul li a{display: block;line-height:3em;color:#444;padding-left:10px;position:relative;}
 .about-panel-nav ul li a:before{content: '';position:absolute;border-left:6px solid #454344;border-top:5px solid transparent;border-bottom:5px solid transparent;left:-10px;top:1.2em;}
 .about-panel-nav ul li a span{color:#c4c4c4;font-size:14px;}
 .about-panel-nav ul li a:hover{text-decoration: none;}
-.about-panel-nav ul li:hover a,.about-panel-nav ul li:hover a span{color:#3566cc;}
+.about-panel-nav ul li:hover a{color:#3566cc;}
+.about-panel-nav ul li.active{background-color:#F1F1F1;}
+.about-panel-nav ul li.active a{color:#e54746;}
 .about-panel-nav ul li:hover a:before{border-left:6px solid #3566cc;}
+.about-panel-nav ul li.active a:before{border-left:6px solid #e54746;}
+.nav-slide-title{border-bottom:1px solid #ccc;line-height:3em;padding:0 15px;cursor: pointer;}
+.nav-slide-title.on{background-color:#F1F1F1;}
 
 .service-table thead th{background-color:#c32136;color:#fff;}
 .service-table tbody th{background-color:#efefef;direction: inherit;}

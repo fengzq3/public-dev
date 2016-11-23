@@ -15,6 +15,7 @@ $(function () {
     var listSelect = $('.js-listSelect');
     var checkAll = $('.js-checkAll');
     var inputData = $('.js-inputDate');
+    var navSlide = $('.js-navSlide');
 
     console.log(jsSlide);
     if (jsSlide) {
@@ -98,6 +99,11 @@ $(function () {
             }
         });
 
+    });
+
+//    关于我们左侧伸缩菜单
+    navSlide.on('click',function () {
+        $(this).toggleClass('on').next('ul').toggleClass('hide');
     });
 
 });
