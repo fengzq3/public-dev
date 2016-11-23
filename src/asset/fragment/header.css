@@ -76,7 +76,7 @@ body{background: url(../img/indexbg.png) repeat-x top #f5f8ff;}
 
 .top-nav-right{margin-right:-10px;}
 .top-nav-right>li{padding:0 10px;}
-.top-nav-right>li>a{line-height:40px;color:#444;position:relative;padding-left:30px;}
+.top-nav-right>li>a{line-height:40px;color:#444;position:relative;}
 .top-nav-right>li>a span{color:#3265ce;padding-right:7px;position:absolute;left:0;font-size:1.8em;}
 .top-nav-right>li>a:hover,.top-nav-right>li>a:focus{text-decoration: none;}
 
