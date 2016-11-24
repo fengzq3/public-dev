@@ -34,7 +34,7 @@ box-sizing: border-box;}
     border-radius:50%;}
 
 .panel-info-style3 a{text-align: center;display: block;}
-.panel-info-style3 a img{width:100%;}
+.panel-info-style3 a img{width:100%;height:170px;}
 .panel-info-style3 a p{margin-top:6px;}
 .panel-info-style3 ul{margin-bottom:0;}
 .panel-info-style3 a:hover,.panel-info-style3 a:focus{text-decoration: none;}
