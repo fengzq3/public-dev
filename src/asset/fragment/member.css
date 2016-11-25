@@ -1,0 +1,9 @@
+.member-con{margin-bottom:10px;overflow:hidden;padding:0 15px;}
+.member-con h4{color:#0d60b1;border-bottom:1px solid #0d60b1;padding:10px 0;}
+.member-table td,.member-table th{border:0 !important;}
+.member-table .form-control{
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;}
+
+.member-form label.control-label{font-weight:200;font-size:16px;}

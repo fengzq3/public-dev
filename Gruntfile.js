@@ -42,7 +42,7 @@ module.exports = function (grunt) {
 
         watch:{
             options: {
-                livereload: true,
+                livereload: {port:9000},
                 debounceDelay:1000
             },
             css_mbo:{

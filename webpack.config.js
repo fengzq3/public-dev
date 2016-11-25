@@ -119,6 +119,15 @@ module.exports = {
             template: 'src/about2.html',
             filename: '../../about2.html'
 
+        }),
+        new htmlWebpackPlugin({
+            files: {
+                js: ['asset/js/common.js', 'asset/js/index.bundle.js']
+            },
+            title: "信息",
+            template: 'src/member.html',
+            filename: '../../member.html'
+
         })
 
     ],

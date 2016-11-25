@@ -12,6 +12,7 @@ combined files :
 ../fragment/search.css
 ../fragment/info.css
 ../fragment/zj.css
+../fragment/member.css
 */
 
 /*\516C\5171\5934\90E8*/
@@ -1143,8 +1144,8 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.focus {
 .about-panel .panel-heading{background:url(../img/about-bg.png) repeat-x left;border-bottom:1px solid #e4e4e4;padding:15px;}
 
 .about-panel-nav{padding:20px 0;}
-.about-panel-nav ul{margin:0 15px;}
-.about-panel-nav ul li{padding:0 15px;}
+.about-panel-nav ul{margin:0;}
+.about-panel-nav ul li{padding:0 15px 0 30px;}
 .about-panel-nav ul li + li{border-top:1px solid #e8e6e7;}
 .about-panel-nav ul li a{display: block;line-height:3em;color:#444;padding-left:10px;position:relative;}
 .about-panel-nav ul li a span{color:#c4c4c4;font-size:14px;}
@@ -1387,3 +1388,15 @@ box-sizing: border-box;}
 
 .panel-keyword-style li a{padding:0 5px;margin:5px 0;display:inline-block;color:#3465cc;}
 .panel-keyword-style li a+a{border-left:1px solid #3465cc;}
+
+/*\4F1A\5458\4E2D\5FC3*/
+
+.member-con{margin-bottom:10px;overflow:hidden;padding:0 15px;}
+.member-con h4{color:#0d60b1;border-bottom:1px solid #0d60b1;padding:10px 0;}
+.member-table td,.member-table th{border:0 !important;}
+.member-table .form-control{
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;}
+
+.member-form label.control-label{font-weight:200;font-size:16px;}
