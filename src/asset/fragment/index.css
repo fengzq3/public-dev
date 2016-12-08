@@ -13,10 +13,11 @@
 .tender-panel1 .panel-title>span{color:#fff;margin-right:30px;}
 .tender-panel1 .panel-body>ul{margin-bottom:0;}
 .tender-panel1 .panel-body>ul>li{overflow:hidden;padding:5px 0;}
-.tender-panel1 .panel-body>ul>li a{position:relative;color:#444;white-space: nowrap;display:block;overflow:hidden;line-height:1.5em;
+.tender-panel1 .panel-body>ul>li a{position:relative;color:#2c5ab0;white-space: nowrap;display:block;overflow:hidden;line-height:1.5em;
     -ms-text-overflow: ellipsis;
     text-overflow: ellipsis;}
-.tender-panel-body1>ul>li a{padding-left:10px;position:relative;}
+.tender-panel1 .panel-body>ul>li a span{color:#fe0000;}
+.tender-panel-body1>ul>li a{padding-left:10px;position:relative;line-height:1.8em;}
 .tender-panel-body1>ul>li a:before{content: '';position:absolute;display:block;width:4px;height:4px;background-color:#444;left:0;top:50%;margin-top:-2px;
     -webkit-border-radius:50%;
     -moz-border-radius:50%;
@@ -43,18 +44,20 @@
 
 /*登录框*/
 .index-login{padding:10px 0;}
-.index-login .input-group{margin-bottom:20px;}
-.index-login .form-control{height:auto;padding:3px 12px;
+.index-login .input-group{margin-bottom:20px;position:relative;}
+.index-login .form-control{height:auto;
+    padding: 3px 12px 3px 30px;
     -webkit-border-radius:0;
     -moz-border-radius:0;
     border-radius:0;}
+.index-login .input-group span.iconfont{position:absolute;left:55px;}
 .index-login .input-group-addon{background:none;border:0;}
 .input-login-label{padding-left:55px;}
 .input-login-label .checkbox{margin-right:50%;color:#454545;padding-left:20px;}
 .input-login-label a{color:#454545;}
 .index-login-btn{background-color:#4271c9;color:#fff !important;}
 
-.tender-panel2-btn{background-color:#f9f9f9;display:block;border-color:#d0d0d0;color:#444;padding:11px 0 11px 66px;margin-bottom:8px;position: relative;font-size:16px;
+.tender-panel2-btn{background-color:#f9f9f9;display:block;border-color:#d0d0d0;color:#4271c9;padding:11px 0 11px 66px;margin-bottom:8px;position: relative;font-size:16px;
     -webkit-border-radius:0;
     -moz-border-radius:0;
     border-radius:0;}
@@ -65,7 +68,7 @@
 .tender-panel-body2 ul{overflow:hidden;}
 .tender-panel-body2 li{float:left;margin-top:-1px;margin-left:-1px;padding:0 !important;}
 .tender-panel-body2 li a{border-top:1px solid #e4e4e4;color:#444;border-left:1px solid #e4e4e4;text-align: center;line-height:2em !important;padding:5px 0;}
-.tender-panel-body2 li a .iconfont{color:#4371cf;display:block;font-size:2em;}
+.tender-panel-body2 li a .iconfont{color:#4371cf !important;display:block;font-size:2em;}
 .tender-panel-body2 li a.on .iconfont{color:#e12b2a !important;}
 .tender-panel-body2 li a:hover,.tender-panel-body2 li a:focus{text-decoration: none;}
 
@@ -118,9 +121,9 @@
 .tender-panel-body4 .row{margin-left:-45px;margin-right:-45px;}
 
 .tender-panel-body5 ul{margin-bottom:0;}
-.tender-panel-body5 ul li a{color:#444;padding:0 3px;}
+.tender-panel-body5 ul li a{color:#4468b4;padding:0 3px;}
 .tender-panel-body5 ul li{margin:10px 0;}
-.tender-panel-body5 ul li span{color:#4468b4;}
+.tender-panel-body5 ul li span{color:#fe0000;}
 
 .tender-panel-body6 li{float:left;}
 
@@ -135,5 +138,14 @@
 .index-logined p>span{color:#fe0000;}
 .index-logged-btn{margin-bottom: 0;}
 
+.login-panel{border:0 !important;}
 .login-panel .panel-heading{border-color:#fe0000 !important;}
 .login-panel .panel-title{background:url(../img/login-bg2.png) no-repeat left;}
+.tool-panel .panel-title{background:url(../img/tool-icon.png) no-repeat 10px center;}
+.tool-panel .panel-title span{color: #444;
+    padding-left: 25px;
+    font-weight: 700;}
+.new-panel .panel-title{background:url(../img/pane-icon.png) no-repeat 10px center;}
+.new-panel .panel-title span{color: #444;
+    padding-left: 15px;
+    font-weight: 700;}

@@ -24,14 +24,13 @@ body {
     font-family: '微软雅黑', sans-serif;
 }
 @font-face {
-    font-family: 'iconfont';  /* project id："158266" */
-    src: url('//at.alicdn.com/t/font_rvdqhw8dw6340a4i.eot');
-    src: url('//at.alicdn.com/t/font_rvdqhw8dw6340a4i.eot?#iefix') format('embedded-opentype'),
-    url('//at.alicdn.com/t/font_rvdqhw8dw6340a4i.woff') format('woff'),
-    url('//at.alicdn.com/t/font_rvdqhw8dw6340a4i.ttf') format('truetype'),
-    url('//at.alicdn.com/t/font_rvdqhw8dw6340a4i.svg#iconfont') format('svg');
+    font-family: 'iconfont';  /* project id 158266 */
+    src: url('//at.alicdn.com/t/font_psek7bhqr6hia4i.eot');
+    src: url('//at.alicdn.com/t/font_psek7bhqr6hia4i.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_psek7bhqr6hia4i.woff') format('woff'),
+    url('//at.alicdn.com/t/font_psek7bhqr6hia4i.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_psek7bhqr6hia4i.svg#iconfont') format('svg');
 }
-
 body{background: url(../img/indexbg.png) repeat-x top #f5f8ff;}
 
 .iconfont {position:relative;
@@ -68,6 +67,8 @@ body{background: url(../img/indexbg.png) repeat-x top #f5f8ff;}
 .icon-local:before {content: "\e617";}
 .icon-clock:before {content: "\e618";}
 .icon-dui:before{content:'\e626'}
+.icon-user:before{content:'\e619'}
+.icon-lock:before{content:'\e620'}
 
 /*头部样式*/
 .top-nav{height:40px;background-color:#fff;}
