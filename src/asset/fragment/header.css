@@ -132,7 +132,7 @@ body{background: url(../img/indexbg.png) repeat-x top #f5f8ff;}
 .main-nav .nav a:hover,.main-nav .nav a:focus,.main-nav .nav a.active{color:#0d60b1;background:#f0f4fd;border-top-left-radius: 5px;border-top-right-radius: 5px;}
 
 /*搜索*/
-.main-search{background-color:#fff;overflow:hidden;padding:20px 5px;}
+.main-search{background:url(../img/400.png) no-repeat bottom right #fff;overflow:hidden;padding:20px 5px;}
 
 .search-label{margin-top:10px;}
 .search-label>span{color:#0e4f8f;}
@@ -140,14 +140,21 @@ body{background: url(../img/indexbg.png) repeat-x top #f5f8ff;}
 .search-label a{text-decoration: none;}
 .search-label>em{font-style: normal;}
 
-.main-search-form .form-control{padding:8px 15px;border-color:#4e7cd2;height:auto;
+.main-search-form{position:relative;}
+.main-search-form em{    position: absolute;font-style:normal;
+    left: 100%;
+    width: 200px;
+    top: 18px;
+    padding: 0 10px;}
+.main-search-form .form-control{padding:8px 15px;border-color:#fe0000;height:39px;
     -webkit-border-radius:0;
     -moz-border-radius:0;
     border-radius:0;}
-.main-search-form .search-btn{background:url(../img/search-bg.png) repeat-x left #0d60b1;color:#fff;padding:8px 40px;
+.main-search-form .search-btn{background:url(../img/search-btn.png) repeat-x left #fe0000;color:#fff;padding:8px 40px;height:39px;width:120px;
     -webkit-border-radius:0;
     -moz-border-radius:0;
     border-radius:0;}
+.search-btn:hover,.search-btn:hover{outline: none;}
 .main-search-tel{text-align: right;}
 
 .top-logo-local{position:absolute;    right: 20px;
