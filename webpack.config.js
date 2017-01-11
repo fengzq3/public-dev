@@ -128,6 +128,15 @@ module.exports = {
             template: 'src/member.html',
             filename: '../../member.html'
 
+        }),
+        new htmlWebpackPlugin({
+            files: {
+                js: ['asset/js/common.js', 'asset/js/index.bundle.js']
+            },
+            title: "信息",
+            template: 'src/member2.html',
+            filename: '../../member2.html'
+
         })
 
     ],

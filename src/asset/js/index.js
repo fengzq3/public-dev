@@ -16,6 +16,7 @@ $(function () {
     var checkAll = $('.js-checkAll');
     var inputData = $('.js-inputDate');
     var navSlide = $('.js-navSlide');
+    var datePic2 = $('.js-datePicker-2');
 
     console.log(jsSlide);
     if (jsSlide) {
@@ -62,6 +63,32 @@ $(function () {
         keyboardNavigation: false,
         autoclose: false
     });
+
+    //双date picker
+    if(datePic2){
+        $( "#from" ).datepicker({
+            language: "zh-CN",
+            format: "yyyy-mm-dd",
+            changeMonth: true,
+            numberOfMonths: 2,
+            autoclose: true
+        }).on('changeDate',function (e) {
+            console.log(e);
+        });
+        $( "#to" ).datepicker({
+            language: "zh-CN",
+            format: "yyyy-mm-dd",
+            changeMonth: true,
+            numberOfMonths: 2,
+            autoclose: true
+            // onClose: function( selectedDate ) {
+            //     $( "#from" ).datepicker( "option", "maxDate", selectedDate );
+            // }
+        }).on('changeDate',function (e) {
+
+        });
+    }
+
 
 //    自定义tab
     tabC.find('.js-tab-item').hover(function () {
